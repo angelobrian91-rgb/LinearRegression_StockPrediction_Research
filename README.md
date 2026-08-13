@@ -26,3 +26,8 @@ If you use this work, please cite the associated paper (ICIMCIS 2026).
 **Links**
 
 Dataset on Kaggle: OHLC LQ45 Index 2021–2026
+
+**Do note**
+
+Code may not work in vscode due to restriction by yahoofinance API
+Recommended to use jupyter notebook
