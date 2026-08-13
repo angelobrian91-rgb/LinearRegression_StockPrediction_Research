@@ -7,9 +7,9 @@ The study evaluates Linear Regression against SVR and XGBoost for predicting clo
 
 Contents
 
-data/ — OHLC price data for all 45 LQ45 tickers (sourced via yfinance, also published on Kaggle)
-notebook/ — full pipeline: data loading, feature engineering, model training, and evaluation
-output/ — per-ticker metrics (MAE, RMSE, R²) and generated figures
+- data/ — OHLC price data for all 45 LQ45 tickers (sourced via yfinance, also published on Kaggle)
+- notebook/ — full pipeline: data loading, feature engineering, model training, and evaluation
+- output/ — per-ticker metrics (MAE, RMSE, R²) and generated figures
 
 Method
 
