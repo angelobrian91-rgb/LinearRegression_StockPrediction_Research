@@ -9,16 +9,14 @@ Contents
 data/ — OHLC price data for all 45 LQ45 tickers (sourced via yfinance, also published on Kaggle)
 notebook/ — full pipeline: data loading, feature engineering, model training, and evaluation
 output/ — per-ticker metrics (MAE, RMSE, R²) and generated figures
-Method
 
+Method
 Data is chronologically split 80/20 (no shuffling) to prevent look-ahead bias. Features are standardized on the training partition only. Linear Regression is compared against SVR (RBF kernel) and XGBoost under identical conditions, with hyperparameters tuned via time-series cross-validation.
 
 Key Finding
-
 Linear Regression outperformed both non-linear models on most tickers, primarily due to its ability to extrapolate beyond the training price range — a capability SVR and XGBoost structurally lack.
 
 Citation
-
 If you use this work, please cite the associated paper (ICIMCIS 2026).
 
 Links
